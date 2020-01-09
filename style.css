@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+.logo {
+    width: 275px;
+    height: 100px;
+    margin: 100px auto 0 auto;
+    background: url(https://i.loli.net/2019/11/14/LVkXcBibEjh9s6v.png) center center no-repeat;
+    background-size: contain;
+}
+
+.search {
+    position: relative;
+    max-width: 582px;
+    height: 40px;
+    margin: 20px auto;
+    border: solid 1px #ccc;
+    border-radius: 24px;
+}
+
+.search > input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 16px;
+}
+
+.search > .icon-search {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-40%);
+    color: #999;
+    font-size: 16px;
+}
+
+.search > .icon-mic {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-40%);
+    color: #5484ed;
+    font-size: 16px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons > span {
+    display: inline-block;
+    background: #eee;
+    font-size: 16px;
+    color: #666;
+    padding: 6px 12px;
+    margin: 5px 4px;
+    border-radius: 4px;
+}
